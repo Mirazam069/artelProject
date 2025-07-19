@@ -1,3 +1,18 @@
+@media(max-width: 630px){
+    .header-title-first{
+        font-size: 85px;
+        text-align: center;
+    }
+    .header-title-second{
+        font-size: 85px;
+        text-align: center;
+    }
+    .header-title-third{
+        font-size: 85px;
+        text-align: center;
+    }
+}
+
 @media(max-width: 560px){
     .navbar{
         display: flex;

@@ -70,7 +70,35 @@ body{
     background-color: var(--main-color);
     padding-top: 30px;
 }
-
+.header-title-first{
+    font-size: 120px;
+    color: var(--white-color);
+    line-height: 80%;
+    margin-left: 15px;
+    margin: 20px 15px;
+}
+.header-title-second{
+    font-size: 120px;
+    color: var(--primary-color);
+    line-height: 80%;
+    margin-left: 70px;
+    margin: 20px 15px;
+}
+.header-titles3{
+    display: flex;
+    justify-content: end;
+}
+.header-titles2{
+    display: flex;
+    justify-content: center;
+}
+.header-title-third{
+    font-size: 120px;
+    color: var(--white-color);
+    line-height: 80%;
+    margin-left: 140px;
+    margin: 20px 15px;
+}
 
 
 
