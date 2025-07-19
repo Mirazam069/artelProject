@@ -26,13 +26,12 @@
         font-size: 70px;
         text-align: center;
     }
-}
-@media(max-width: 470px){
-    .navbar-menu{
+        .navbar-menu{
         display: flex;
         flex-direction: column;
     }
 }
+
 
 @media(max-width: 560px){
     .navbar{
