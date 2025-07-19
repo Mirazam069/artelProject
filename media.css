@@ -1,0 +1,9 @@
+@media(max-width: 560px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-logo{
+        margin-bottom: 20px;
+    }
+}

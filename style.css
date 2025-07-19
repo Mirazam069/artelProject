@@ -1,0 +1,78 @@
+@import 'fonts.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'ClashDisplay';
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+:root{
+    --main-color: rgba(0, 96, 254, 0.8);
+    --primary-color: rgba(113, 167, 254, 1);
+    --white-color: rgba(255, 255, 255, 1);
+    --title-color: rgba(40, 92, 174, 1);
+    --navbar-color: rgba(40, 92, 174, 0.6);
+}
+
+
+
+
+/* Navbar start */
+.navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 24px  30px;
+    margin: 0 15px;
+    /* margin: 30px 0 50px 0; */
+}
+.navbar-logo{
+    color: var(--white-color);
+    font-size: 22px;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-number{
+    font-size: 18px;
+    color: var(--white-color);
+    margin: 0 15px;
+}
+.navbar-user-icon{
+    color: var(--white-color);
+    font-size: 30px;
+    margin: 0 15px;
+}
+.navbar-menu-icon{
+    color: var(--white-color);
+    font-size: 30px;
+    margin: 0 15px;
+}
+
+
+/* Navbar end */
+
+/* Header start */
+.header{
+    background-color: var(--main-color);
+    padding-top: 30px;
+}
+
+
+
+
+
+/* header end */
