@@ -13,6 +13,27 @@
     }
 }
 
+@media(max-width: 470px){
+    .header-title-first{
+        font-size: 70px;
+        text-align: center;
+    }
+    .header-title-second{
+        font-size: 70px;
+        text-align: center;
+    }
+    .header-title-third{
+        font-size: 70px;
+        text-align: center;
+    }
+}
+@media(max-width: 470px){
+    .navbar-menu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media(max-width: 560px){
     .navbar{
         display: flex;
