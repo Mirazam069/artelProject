@@ -100,7 +100,47 @@ body{
     margin: 20px 15px;
 }
 
+.header-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header-txt {
+    color: var(--white-color);
+    max-width: 300px;
+    width: 100%;
+}
 
+.header-info-txt {
+    color: var(--white-color);
+    max-width: 200px;
+    width: 100%;
+    text-align: end;
+}
 
+.header-info-buttun {
+    padding: 17px 24px;
+    color: var(--primary-color);
+    border: 2px solid var(--white-color);
+    border-radius: 70px;
+    font-size: 18px;
+    font-family: 'ClashDisplay';
+    margin-top: 15px;
+}
+
+.header-image-div{
+    margin: 0 15px;
+}
+
+.header-image-div-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-info-div {
+    margin: 0 15px;
+}
 /* header end */
