@@ -194,7 +194,9 @@ body{
     border-bottom: 2px solid rgba(40, 92, 174, 0.2);
 }
 
-
+.main-bunner-image {
+    width: 100%;
+}
 
 
 

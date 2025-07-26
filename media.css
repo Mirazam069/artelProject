@@ -72,6 +72,11 @@
     .header-info-buttun {
         margin-bottom: 30px;
     }
+    .compounds-info-txt-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 }
