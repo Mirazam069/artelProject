@@ -246,4 +246,51 @@ body{
     color: var(--white-color);
     font-size: 16px;
 }
+.ourWorks{
+    padding: 0 15px;
+}
+.ourWorks-img{
+    width: 600px;
+    border-radius: 24px;
+}
+
+.ourWorks-title{
+    font-size: 50px;
+    color: var(--title-color);
+    font-family: 'PlaywriteHU';
+}
+
+.ourWorks-box-txt{
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ourWorks-box-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.ourWorks-box{
+    width: 600px;
+}
+
+.ourWorks-box-image{
+    display: flex;
+    align-items: baseline;
+}
+.ourWorks-box-link{
+    padding: 18px 24px;
+    background-color: rgba(0, 96, 254, 1);
+    border-radius: 100px;
+    color: white;
+}
+.ourWorks-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 

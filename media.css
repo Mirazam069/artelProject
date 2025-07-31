@@ -15,6 +15,22 @@
     .reviews-title {
         font-size: 90px;
     }
+    .ourWorks-boxes{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .ourWorks-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourWorks-img{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .ourWorks-box-title{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 470px){
@@ -81,7 +97,13 @@
         justify-content: center;
         align-items: center;
     }
-
+    .ourWorks-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .ourWorks-title{
+        text-align: center;
+    }
 
 }
 
@@ -144,9 +166,4 @@
         text-align: center;
     }
 }
-
-@media
-
-
-
 
